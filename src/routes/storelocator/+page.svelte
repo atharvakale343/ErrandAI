@@ -153,26 +153,32 @@
 				<h1 class="text-xs font-semibold text-yellow-900">Store Map</h1>
 			</button>
 		</div>
-		{#if display1}
-			<button
-				on:click={() => goto('/storemap')}
-				class="absolute scale-[0.25] top-20 -right-32 hover:-translate-y-1 cursor-pointer transition"
-			>
-				<img src="/bubble1.png" alt="logo" in:fly={{ duration: 200, x: 100, y: 0, opacity: 0.8 }} />
-			</button>
-		{/if}
-		{#if display2}
-			<button
-				on:click={() => goto('/storemap')}
-				class="absolute scale-[0.25] top-40 -left-32 w-fit hover:-translate-y-1 cursor-pointer transition"
-			>
-				<img
-					src="/bubble2.png"
-					alt="logo"
-					in:fly={{ duration: 200, x: -100, y: 0, opacity: 0.8 }}
-				/>
-			</button>
-		{/if}
+		<div>
+			{#if display1}
+				<button
+					on:click={() => goto('/storemap')}
+					class="absolute scale-[0.25] top-20 -right-32 hover:-translate-y-1 cursor-pointer transition"
+				>
+					<img
+						src="/bubble1.png"
+						alt="logo"
+						in:fly={{ duration: 200, x: 100, y: 0, opacity: 0.8 }}
+					/>
+				</button>
+			{/if}
+			{#if display2}
+				<button
+					on:click={() => goto('/storemap')}
+					class="absolute scale-[0.30] bottom-40 -left-20 w-fit hover:-translate-y-1 cursor-pointer transition"
+				>
+					<img
+						src="/bubble2.png"
+						alt="logo"
+						in:fly={{ duration: 200, x: -100, y: 0, opacity: 0.8 }}
+					/>
+				</button>
+			{/if}
+		</div>
 	</div>
 </div>
 
