@@ -42,7 +42,7 @@
 			>
 				<div class="flex flex-row items-center space-x-3">
 					<i class="fa fa-angle-down" aria-hidden="true"></i>
-					<h2>12 Eastman Ln</h2>
+					<h2 class="text-xs">145 Commonwealth Ave</h2>
 				</div>
 				<div class="icons flex grow justify-end gap-x-2">
 					<button class="rounded-full hover:bg-white">
