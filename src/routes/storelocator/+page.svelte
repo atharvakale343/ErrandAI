@@ -88,7 +88,7 @@
 		</div>
 
 		<div
-			class="nav-bar flex flex-row items-center justify-center rounded-b-[1.5rem] border border-black bg-[#E6E5DC] shadow-2xl"
+			class="nav-bar flex flex-row mt-[52px] items-center justify-center rounded-b-[1.5rem] border border-black bg-[#E6E5DC] shadow-2xl"
 		>
 			<button
 				on:click={() => goto('/')}
