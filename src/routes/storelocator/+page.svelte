@@ -18,7 +18,7 @@
 	<div
 		class="mx-auto relative flex h-[600px] w-[300px] flex-col justify-between rounded-[2.5rem] border-[14px] border-gray-800 bg-[#F5F6EA] dark:border-gray-800"
 	>
-		<div class="fade-in-element address-and-chat-box space-y-1">
+		<div class="address-and-chat-box space-y-1">
 			<div
 				class="address flex flex-row items-center justify-between space-x-3 rounded-t-[1.5rem] border border-black bg-[#E6E5DC] px-2 pt-3 pb-2 shadow-md"
 			>
@@ -67,7 +67,7 @@
 					</button>
 				</div>
 			</div>
-			<div class="flex flex-row mx-2 space-x-1 pt-2 items-center">
+			<div class="fade-in-element flex flex-row mx-2 space-x-1 pt-2 items-center">
 				<svg class="size-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 					<g id="SVGRepo_bgCarrier" stroke-width="0"></g>
 					<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
@@ -82,7 +82,7 @@
 				</svg>
 				<h1>Stores Near You</h1>
 			</div>
-			<div class="map pt-4">
+			<div class="fade-in-element map pt-4">
 				<img src="/map.jpg" alt="map" />
 			</div>
 		</div>
