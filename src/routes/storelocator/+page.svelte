@@ -18,7 +18,7 @@
 	<div
 		class="mx-auto relative flex h-[600px] w-[300px] flex-col justify-between rounded-[2.5rem] border-[14px] border-gray-800 bg-[#F5F6EA] dark:border-gray-800"
 	>
-		<div class="address-and-chat-box space-y-1">
+		<div class="fade-in-element address-and-chat-box space-y-1">
 			<div
 				class="address flex flex-row items-center justify-between space-x-3 rounded-t-[1.5rem] border border-black bg-[#E6E5DC] px-2 pt-3 pb-2 shadow-md"
 			>
@@ -88,7 +88,7 @@
 		</div>
 
 		<div
-			class="nav-bar flex flex-row mt-[52px] items-center justify-center rounded-b-[1.5rem] border border-black bg-[#E6E5DC] shadow-2xl"
+			class="nav-bar flex flex-row mt-[54px] items-center justify-center rounded-b-[1.5rem] border border-black bg-[#E6E5DC] shadow-2xl"
 		>
 			<button
 				on:click={() => goto('/')}

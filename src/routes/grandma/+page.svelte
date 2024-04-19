@@ -18,7 +18,7 @@
 		class="mx-auto flex h-[600px] w-[300px] flex-col rounded-[2.5rem] border-[14px] border-gray-800 bg-[#F5F6EA] dark:border-gray-800"
 	>
 		<div
-			class="address flex flex-row items-center justify-between space-x-3 rounded-t-[1.5rem] border border-black bg-[#E6E5DC] px-2 pt-3 pb-2 shadow-md"
+			class="fade-in-element address flex flex-row items-center justify-between space-x-3 rounded-t-[1.5rem] border border-black bg-[#E6E5DC] px-2 pt-3 pb-2 shadow-md"
 		>
 			<div class="flex flex-row items-center space-x-3">
 				<i class="fa fa-angle-down" aria-hidden="true"></i>

@@ -2,8 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-[contenteditable=true]:empty:before{
-    content: attr(placeholder);
-    pointer-events: none;
-    display: block; /* For Firefox */
+[contenteditable='true']:empty:before {
+	content: attr(placeholder);
+	pointer-events: none;
+	display: block; /* For Firefox */
+}
+
+/* Define the keyframes for the fade-in effect */
+@keyframes fadeIn {
+  from {
+    opacity: 0; /* Start with opacity 0 */
   }
+  to {
+    opacity: 1; /* End with opacity 1 */
+  }
+}
+
+/* Apply the fade-in effect to the element */
+div.fade-in-element {
+  opacity: 0; /* Set initial opacity to 0 */
+  animation: fadeIn 0.25s ease-in forwards;
+}

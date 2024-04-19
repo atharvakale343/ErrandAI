@@ -8,7 +8,7 @@
 	<div
 		class="mx-auto flex h-[600px] w-[300px] flex-col justify-between rounded-[2.5rem] border-[14px] border-gray-800 bg-[#F5F6EA] dark:border-gray-800"
 	>
-		<div class="address-and-chat-box">
+		<div class="fade-in-element address-and-chat-box">
 			<div
 				class="address flex flex-row items-center justify-between space-x-3 rounded-t-[1.5rem] border border-black bg-[#E6E5DC] px-2 pt-3 pb-2 shadow-md"
 			>

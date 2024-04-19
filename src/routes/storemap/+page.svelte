@@ -36,7 +36,7 @@
 	<div
 		class="mx-auto relative flex h-[600px] w-[300px] flex-col justify-between rounded-[2.5rem] border-[14px] border-gray-800 bg-[#F5F6EA] dark:border-gray-800"
 	>
-		<div class="address-and-chat-box space-y-1">
+		<div class="fade-in-element address-and-chat-box space-y-1">
 			<div
 				class="address flex flex-row items-center justify-between space-x-3 rounded-t-[1.5rem] border border-black bg-[#E6E5DC] px-2 pt-3 pb-2 shadow-md"
 			>
@@ -175,7 +175,7 @@
 		{#if display1}
 			<button
 				on:click={() => goto('/storemap')}
-				class="absolute scale-[0.3] top-20 -left-32 overflow-visible hover:-translate-y-1 cursor-pointer transition"
+				class="fade-in-element absolute scale-[0.3] top-20 -left-32 overflow-visible hover:-translate-y-1 cursor-pointer transition"
 			>
 				<img
 					src="/tap-to-view.png"
@@ -187,11 +187,11 @@
 		{#if display1}
 			<button
 				on:click={() => goto('/storemap')}
-				class="absolute w-fit top-[150px] right-[90px] hover:-translate-y-1 cursor-pointer transition"
+				class="fade-in-element absolute w-fit top-[150px] right-[90px] hover:-translate-y-1 cursor-pointer transition"
 			>
 				<span class="relative flex size-4">
 					<span
-						class="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-500 opacity-75"
+						class="animate-ping fade-in-element absolute inline-flex h-full w-full rounded-full bg-sky-500 opacity-75"
 					></span>
 					<span class="relative inline-flex rounded-full size-4 bg-sky-600"></span>
 				</span>
@@ -200,11 +200,11 @@
 		{#if display1}
 			<button
 				on:click={() => goto('/storemap')}
-				class="absolute w-fit top-[270px] right-[90px] hover:-translate-y-1 cursor-pointer transition"
+				class="fade-in-element absolute w-fit top-[270px] right-[90px] hover:-translate-y-1 cursor-pointer transition"
 			>
 				<span class="relative flex size-4">
 					<span
-						class="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-500 opacity-75"
+						class="animate-ping fade-in-element absolute inline-flex h-full w-full rounded-full bg-sky-500 opacity-75"
 					></span>
 					<span class="relative inline-flex rounded-full size-4 bg-sky-600"></span>
 				</span>
@@ -213,18 +213,18 @@
 		{#if display1}
 			<button
 				on:click={() => goto('/storemap')}
-				class="absolute w-fit top-[365px] right-[140px] hover:-translate-y-1 cursor-pointer transition"
+				class="fade-in-element absolute w-fit top-[365px] right-[140px] hover:-translate-y-1 cursor-pointer transition"
 			>
 				<span class="relative flex size-4">
 					<span
-						class="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-500 opacity-75"
+						class="animate-ping fade-in-element absolute inline-flex h-full w-full rounded-full bg-sky-500 opacity-75"
 					></span>
 					<span class="relative inline-flex rounded-full size-4 bg-sky-600"></span>
 				</span>
 			</button>
 		{/if}
 		{#if show}
-			<button on:click={() => goto('/storemap')} class="absolute w-fit top-[125px] right-[5px]">
+			<button on:click={() => goto('/storemap')} class="fade-in-element absolute w-fit top-[125px] right-[5px]">
 				<svg width={272.5} height={389} viewBox="0 0 {max} {max}">
 					<g transform="translate(0 {max}) scale(1 -1)">
 						<path
